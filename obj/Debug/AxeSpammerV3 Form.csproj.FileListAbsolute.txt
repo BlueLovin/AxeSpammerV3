@@ -20,3 +20,4 @@ C:\Users\Matthew\Documents\Visual Studio 2013\Projects\AxeSpammerV3\bin\Debug\Ax
 C:\Users\Matthew\Documents\Visual Studio 2013\Projects\AxeSpammerV3\bin\Debug\AxeSpammerV3.application
 C:\Users\Matthew\Documents\Visual Studio 2013\Projects\AxeSpammerV3\obj\Debug\AxeSpammerV3.exe.manifest
 C:\Users\Matthew\Documents\Visual Studio 2013\Projects\AxeSpammerV3\obj\Debug\AxeSpammerV3.application
+C:\Users\Matthew\Documents\Visual Studio 2013\Projects\AxeSpammerV3\obj\Debug\AxeSpammerV3_Form.AboutBox1.resources

@@ -4,7 +4,7 @@
   <description asmv2:iconFile="axe-large-de9e7a24999a125657aabe8a880e93b9.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="AxeSpammerV3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="AxeSpammerV3" version="3.1.4.7" language="neutral" processorArchitecture="msil" />
     <commandLine file="AxeSpammerV3.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxeSpammerV3.exe" size="765440">
-      <assemblyIdentity name="AxeSpammerV3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxeSpammerV3.exe" size="802304">
+      <assemblyIdentity name="AxeSpammerV3" version="3.1.4.7" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>LVzW2+DLiaCgK+hD/MkYZ6e1QuW5fZ0YzvhKiNC8l4Q=</dsig:DigestValue>
+        <dsig:DigestValue>rt+o/X4z/hMFlAe1hQVGH4zjnn3FvBLj3HPyafzzp0M=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

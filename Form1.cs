@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace AxeSpammerV3_Form
 {
@@ -93,7 +94,7 @@ namespace AxeSpammerV3_Form
         {
             if (timer1.Enabled == false)
             {
-                MessageBox.Show("Nothing to stop!", "You fucking idiot", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                MessageBox.Show("Nothing to stop!", "Idiot", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
             if (timer1.Enabled == true)
             {
@@ -116,6 +117,17 @@ namespace AxeSpammerV3_Form
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            AboutBox1 foo = new AboutBox1();
+            foo.ShowDialog();
+        }
+
+        private void linkLabel2_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("http://www.neohc.tk");
         }
     }
 }
