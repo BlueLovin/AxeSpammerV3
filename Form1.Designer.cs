@@ -50,7 +50,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(12, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(140, 25);
             this.label1.TabIndex = 0;
@@ -60,7 +60,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(62, 30);
+            this.label2.Location = new System.Drawing.Point(62, 49);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 24);
             this.label2.TabIndex = 1;
@@ -69,7 +69,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(14, 54);
+            this.label3.Location = new System.Drawing.Point(14, 73);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(147, 13);
             this.label3.TabIndex = 2;
@@ -87,9 +87,9 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(17, 86);
+            this.richTextBox1.Location = new System.Drawing.Point(17, 103);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(280, 295);
+            this.richTextBox1.Size = new System.Drawing.Size(280, 278);
             this.richTextBox1.TabIndex = 4;
             this.richTextBox1.Text = "";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);

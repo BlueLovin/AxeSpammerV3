@@ -98,6 +98,7 @@ namespace AxeSpammerV3_Form
             if (timer1.Enabled == true)
             {
             timer1.Enabled = false;
+            checkBox1.Enabled = true;
             richTextBox1.Enabled = true;
             radioButton1.Enabled = true;
             radioButton2.Enabled = true;
@@ -112,5 +113,9 @@ namespace AxeSpammerV3_Form
             //fstring = fstring + "{ENTER}";
         }
 
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
